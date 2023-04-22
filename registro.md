@@ -23,6 +23,6 @@ shell
 ctrl+ j
 aba - cmd
 
-alt shift a para comentar
+alt shift a  - para comentar
 shift + botão dir
  -->

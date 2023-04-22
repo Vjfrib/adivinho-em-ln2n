@@ -1,23 +1,23 @@
 
-
+// recursivo
 let LE = 1;
 let LD = 100;
-let meio = parseInt((LE + LD)/2) //converte valor
-
-console.log(meio)
+let meio; //converte valor
+let cont = 0;
 
 while (true)
 {
-    
+      meio = parseInt((LE + LD)/2); 
+      cont++
     let resposta = prompt("o numero que voce pensou eh < = ou >"+meio);
-    meio = parseInt((LE + LD)/2)
+  
     if (resposta === "="){
-        alert("acertei!")
+        alert("acertei, depois de "+cont)
         break;
     }
-    if ( resposta === "<") {
-        LD = (meio-1)
+    if ( resposta === ">") {
+        LE = (meio+1)
     } else {
-        LE = (LD+1)
+        LD = (meio-1)
     }
 }
